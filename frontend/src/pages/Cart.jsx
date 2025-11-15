@@ -29,13 +29,13 @@ const Cart = () => {
 
   return (
     <div>
-      <h1>Your Cart</h1>
+      <h1>Seu Carrinho</h1>
       <div className="cart-list">
         {cartItems.map((item) => (
           <div key={item.id} className="cart-item">
             <p>{item.name}</p>
             <p>Quantity: {item.quantity}</p>
-            <button onClick={() => handleRemoveItem(item.id)}>Remove</button>
+            <button onClick={() => handleRemoveItem(item.id)}>Remover</button>
           </div>
         ))}
       </div>
