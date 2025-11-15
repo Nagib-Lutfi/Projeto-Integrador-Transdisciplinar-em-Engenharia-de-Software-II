@@ -1,0 +1,27 @@
+# Root
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Backend
+backend/node_modules/
+backend/data/database.sqlite
+backend/.env
+
+# Uploads (keep directory untracked)
+backend/uploads/
+
+# Logs
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/

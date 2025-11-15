@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a,
+header nav button {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+header nav button {
+  background: none;
+  border: none;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ff8c00;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6c00;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cupcake-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cupcake-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.cupcake-card img {
+  max-width: 100%;
+}
+
+.cart-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+}
+
+.table th {
+  background: #f0f0f0;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.danger {
+  background-color: #d9534f;
+}
+.danger:hover {
+  background-color: #c9302c;
+}
