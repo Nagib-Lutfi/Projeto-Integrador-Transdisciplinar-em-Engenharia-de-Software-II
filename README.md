@@ -4,6 +4,13 @@ Projeto Integrador Transdisciplinar em Engenharia de Software II - Cruzeiro do S
 
 Esse é um projeto de uma loja online de cupcakes. Ele se trata de um trabalho acadêmico.
 
+## Informações Adicionais
+- Linguagem Back-End: Javascript
+- Front-End: Javascript+CSS+HTML
+- Banco de Dados: SQLite3
+- Hospedagem: Local
+- Plataforma: Web
+
 ## Pré-requisitos
 - Node.js versão 18+ (recomendada 20+)
 
