@@ -38,7 +38,7 @@ const Checkout = () => {
     <div>
       <h1>Checkout</h1>
       <div>
-        <label>Address:</label>
+        <label>Endereço:</label>
         <input
           type="text"
           value={address}
@@ -47,26 +47,26 @@ const Checkout = () => {
         />
       </div>
       <div>
-        <label>Shipping Method:</label>
+        <label>Tipo de Entrega:</label>
         <select
           value={shippingMethod}
           onChange={(e) => setShippingMethod(e.target.value)}
         >
           <option value="normal">Normal</option>
-          <option value="express">Express</option>
+          <option value="express">Expressa</option>
         </select>
       </div>
       <div>
-        <label>Payment Method:</label>
+        <label>Método de Pagamento:</label>
         <select
           value={paymentMethod}
           onChange={(e) => setPaymentMethod(e.target.value)}
         >
-          <option value="credit_card">Credit Card</option>
+          <option value="credit_card">Cartão de Crédito</option>
           <option value="boleto">Boleto</option>
         </select>
       </div>
-      <button onClick={handleCheckout}>Place Order</button>
+      <button onClick={handleCheckout}>Colocar Pedido</button>
     </div>
   );
 };
