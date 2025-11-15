@@ -1,27 +1,21 @@
-# Root
-.DS_Store
-Thumbs.db
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
-
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
-
-# Backend
-backend/node_modules/
-backend/data/database.sqlite
-backend/.env
-
-# Uploads (keep directory untracked)
-backend/uploads/
+**/dist/
 
 # Logs
-**/npm-debug.log*
-**/yarn-error.log*
-**/pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# IDE
-.vscode/
-.idea/
+# Env
+.env
+
+# Uploaded assets (generated at runtime)
+backend/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
