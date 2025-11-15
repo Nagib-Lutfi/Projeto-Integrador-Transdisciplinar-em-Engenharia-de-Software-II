@@ -1,19 +1,19 @@
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
+**/node_modules/
 **/dist/
-
-# Logs
+**/.vite/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Env
-.env
+# Environment files
+**/.env
 
-# Uploaded assets (generated at runtime)
+# Frontend build output
+frontend/dist/
+
+# Backend database and uploads
+backend/data/database.sqlite
 backend/uploads/
 
 # OS files
